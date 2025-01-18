@@ -3,4 +3,4 @@ shopping_list = {
     "fruit&veg" : ["carrot", "celery", "arugula"]
 }
 for shop, products in shopping_list.items():
-    print(f"I'm heading to {shop}, I'm gonna get: {products}.")
+    print(f"I'm heading to {shop.title()}, I'm gonna get: {[product.title() for product in products]}.")
