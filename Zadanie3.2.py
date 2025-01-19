@@ -8,3 +8,4 @@ shopping_items = sum([
     len(shop) for shop in shopping_list.values()
 ])
 print(f"In total, I'm getting {shopping_items} items.")
+print("Anything else you need?")
