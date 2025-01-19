@@ -15,3 +15,5 @@ to_do_list = {
     "kitchen" : ["dinner prep", "coffee machine descaling"]
 }
 print(to_do_list)
+to_do_list["bathroom"].append("empty the bin")
+print(to_do_list)
