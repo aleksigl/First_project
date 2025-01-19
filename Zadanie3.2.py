@@ -9,3 +9,8 @@ shopping_items = sum([
 ])
 print(f"In total, I'm getting {shopping_items} items.")
 print("Anything else you need?")
+
+to_do_list = {
+    "bathroom" : ["laundry", "clean the mirror"]
+    "kitchen" : ["dinner prep", "coffee machine descaling"]
+}
