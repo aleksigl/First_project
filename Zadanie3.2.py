@@ -14,3 +14,4 @@ to_do_list = {
     "bathroom" : ["laundry", "clean the mirror"]
     "kitchen" : ["dinner prep", "coffee machine descaling"]
 }
+print(to_do_list)
